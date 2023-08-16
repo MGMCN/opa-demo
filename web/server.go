@@ -74,7 +74,7 @@ func (s *apiServer) post(c *fiber.Ctx) error {
 	//	err = c.Send([]byte("call get method!"))
 	//}
 
-	err = c.Send([]byte("call get method!"))
+	err = c.Send([]byte("call post method!"))
 
 	if err != nil {
 		return err
