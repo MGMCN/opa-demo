@@ -6,6 +6,7 @@ Run the demo code
 $ go get -u github.com/gofiber/fiber/v2
 $ go get -u github.com/open-policy-agent/opa/sdk
 $ go build -o demo ./main
+$ go mod tidy
 $ ./demo
  ┌───────────────────────────────────────────────────┐ 
  │                   Fiber v2.48.0                   │ 
